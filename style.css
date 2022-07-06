@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto Slab', serif;
     margin: 0;
+    box-sizing: border-box;
+    background: white;
 }
 .first-part{
     position: 100%;
@@ -93,6 +95,7 @@ body{
     padding-left: 20px;
     padding-right: 10px;
     background-color: rgb(130, 226, 229);
+    padding-top: 2%;
 }
 
 #box2{
@@ -103,6 +106,7 @@ body{
     padding-left: 20px;
     padding-right: 10px;
     background-color: rgb(137, 167, 231);
+    padding-top: 2%;
 }
 #box3{
     width: 40%;
@@ -112,4 +116,81 @@ body{
     padding-left: 20px;
     padding-right: 10px;
     background-color: rgb(231, 137, 208);
+    padding-top: 2%;
+}
+.top-banner{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 7%;
+    padding-right: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.half-width img{
+    width: 120%;
+}
+.font-middle{
+    font-size: 15px;
+    color: rgb(116, 91, 91);
+    margin-bottom: 50px;
+}
+.box-add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.form-box{
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgb(209, 199, 199), -5px -5px 10px rgb(212, 199, 199);
+}
+.form-box input{
+    font-size: 15px;
+    color: rgb(12, 12, 12);
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background: rgb(253, 253, 253);
+}
+.form-box button{
+    color: rgb(253, 253, 253);
+    padding: 5px 15px;
+    font-size: 15px;
+    border: none;
+    background: rgb(201, 20, 20);
+    cursor: pointer;
+    transform: .3s;
+}
+.form-box button:hover{
+    background: rgb(182, 69, 69);
+}
+#box4{
+    
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 40%;
+    box-shadow: 10px 10px 20px rgb(219, 196, 196);
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(209, 230, 118);
+    margin-bottom: 50px;
+}
+.footer-fream{
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
+.text{
+    color: white;
+}
+.color{
+    color: aqua;
 }
