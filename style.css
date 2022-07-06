@@ -83,6 +83,33 @@ body{
     background-image:linear-gradient(rgb(113, 218, 113),rgb(11, 131, 11));
     padding: 10px 40px;
     border-radius: 5px;
-    text-decoration: none;
-    
+    text-decoration: none;   
+}
+#box1{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: rgb(130, 226, 229);
+}
+
+#box2{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: rgb(137, 167, 231);
+}
+#box3{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-color: rgb(231, 137, 208);
 }
